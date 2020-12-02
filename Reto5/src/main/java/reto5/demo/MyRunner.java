@@ -7,10 +7,12 @@ package reto5.demo;
 
 import java.util.logging.Logger;
 import org.slf4j.LoggerFactory;
+import modelo.Usuarios;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import repositorio.RepositorioUsuarios;
+
 
 /**
  *
@@ -22,11 +24,11 @@ public class MyRunner implements CommandLineRunner{
     
     
     @Autowired
-    private RepositorioUsuarios RepositorioUsuarios;
+    private RepositorioUsuarios repositoriousuario;
 
     @Override
     public void run(String... args) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         //To change body of generated methods, choose Tools | Templates.
     }
 
 }
